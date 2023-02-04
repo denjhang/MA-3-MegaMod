@@ -1,0 +1,66 @@
+
+# SMAF/MA-3 [2001.07.26]
+									#							1st		2nd		3rd		4th		5th
+create	1							# SMAF stream converter
+
+load	1 0 01.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 02.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 03.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 04.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 05.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 06.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 07.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 08.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 09.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+load	1 0 10.mmf 1
+open 	1 0 0						# alloc full resource				buffer	mode
+get_length 1 0
+close	1 0
+unload	1 0
+
+delete	1

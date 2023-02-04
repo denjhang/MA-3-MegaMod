@@ -1,0 +1,1725 @@
+drt r2 reg | A:0090 D:60 | #144 - Channel Volume # 0 [6:2]
+drt r2 reg | A:0091 D:60 | #145 - Channel Volume # 1 [6:2]
+drt r2 reg | A:0092 D:60 | #146 - Channel Volume # 2 [6:2]
+drt r2 reg | A:0093 D:60 | #147 - Channel Volume # 3 [6:2]
+drt r2 reg | A:0094 D:60 | #148 - Channel Volume # 4 [6:2]
+drt r2 reg | A:0095 D:60 | #149 - Channel Volume # 5 [6:2]
+drt r2 reg | A:0096 D:60 | #150 - Channel Volume # 6 [6:2]
+drt r2 reg | A:0097 D:60 | #151 - Channel Volume # 7 [6:2]
+drt r2 reg | A:0098 D:60 | #152 - Channel Volume # 8 [6:2]
+drt r2 reg | A:0099 D:60 | #153 - Channel Volume # 9 [6:2]
+drt r2 reg | A:009A D:60 | #154 - Channel Volume #10 [6:2]
+drt r2 reg | A:009B D:60 | #155 - Channel Volume #11 [6:2]
+drt r2 reg | A:009C D:60 | #156 - Channel Volume #12 [6:2]
+drt r2 reg | A:009D D:60 | #157 - Channel Volume #13 [6:2]
+drt r2 reg | A:009E D:60 | #158 - Channel Volume #14 [6:2]
+drt r2 reg | A:009F D:60 | #159 - Channel Volume #15 [6:2]
+drt r2 reg | A:00A0 D:3C | #160 - Channel Panpot # 0 [6:2]
+drt r2 reg | A:00A1 D:3C | #161 - Channel Panpot # 1 [6:2]
+drt r2 reg | A:00A2 D:3C | #162 - Channel Panpot # 2 [6:2]
+drt r2 reg | A:00A3 D:3C | #163 - Channel Panpot # 3 [6:2]
+drt r2 reg | A:00A4 D:3C | #164 - Channel Panpot # 4 [6:2]
+drt r2 reg | A:00A5 D:3C | #165 - Channel Panpot # 5 [6:2]
+drt r2 reg | A:00A6 D:3C | #166 - Channel Panpot # 6 [6:2]
+drt r2 reg | A:00A7 D:3C | #167 - Channel Panpot # 7 [6:2]
+drt r2 reg | A:00A8 D:3C | #168 - Channel Panpot # 8 [6:2]
+drt r2 reg | A:00A9 D:3C | #169 - Channel Panpot # 9 [6:2]
+drt r2 reg | A:00AA D:3C | #170 - Channel Panpot #10 [6:2]
+drt r2 reg | A:00AB D:3C | #171 - Channel Panpot #11 [6:2]
+drt r2 reg | A:00AC D:3C | #172 - Channel Panpot #12 [6:2]
+drt r2 reg | A:00AD D:3C | #173 - Channel Panpot #13 [6:2]
+drt r2 reg | A:00AE D:3C | #174 - Channel Panpot #14 [6:2]
+drt r2 reg | A:00AF D:3C | #175 - Channel Panpot #15 [6:2]
+drt r2 reg | A:014A D:40 | #330 - WT PG #0 
+drt r2 reg | A:014B D:40 | #331 - WT PG #1 
+drt r2 reg | A:014C D:40 | #332 - WT PG #2 
+drt r2 reg | A:014D D:40 | #333 - WT PG #3 
+drt r2 reg | A:014E D:40 | #334 - WT PG #4 
+drt r2 reg | A:014F D:40 | #335 - WT PG #5 
+drt r2 reg | A:0150 D:40 | #336 - WT PG #6 
+drt r2 reg | A:0151 D:40 | #337 - WT PG #7 
+drt wr reg | A:0163 D:3F | #355 - Smooth Volume
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157 D:64 | #343 - Timer 1 Time 
+drt wr reg | A:0158 D:05 | #344 - Timer 1 control 
+drt wr reg | A:0152 D:1B | #338 - Timer MS 
+drt wr reg | A:0154 D:14 | #340 - Timer 0 Time 
+drt wr reg | A:0155 D:00 | #341 - Timer 0 control 
+drt wr reg | A:0167 D:01 | #359 - FM Mode
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr mem | A:4000 D:C9
+drt wr mem | A:4001 D:40
+drt wr mem | A:4002 D:91
+drt wr mem | A:4003 D:9A
+drt wr mem | A:4004 D:F2
+drt wr mem | A:4005 D:4A
+drt wr mem | A:4006 D:40
+drt wr mem | A:4007 D:82
+drt wr mem | A:4008 D:06
+drt wr mem | A:4009 D:81
+drt wr mem | A:400A D:87
+drt wr mem | A:400B D:FF
+drt wr mem | A:400C D:08
+drt wr mem | A:400D D:40
+drt wr mem | A:400E D:21
+drt wr mem | A:400F D:00
+drt wr reg | A:0158 D:00 | #344 - Timer 1 control 
+drt wr reg | A:0167 D:00 | #359 - FM Mode
+drt wr reg | A:015E D:1B | #350 - Sequncer MAS(H)
+drt wr reg | A:015F D:00 | #351 - Sequncer MAS(L)
+drt wr reg | A:0160 D:04 | #350 - Sequncer irq point
+drt wr reg | A:0157

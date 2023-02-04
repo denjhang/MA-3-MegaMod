@@ -1,0 +1,10 @@
+
+# SMAF/MA-3 [2001.07.26]
+									#							1st		2nd		3rd		4th		5th
+create	1							# SMAF stream converter
+
+load	1 0 size19.mmf 2
+#get_contentsdata 1 0 0 ST
+#get_contentsdata 1 0 0 MI
+
+delete	1

@@ -1,0 +1,1365 @@
+{
+  "schematics": {
+    "3134841d6b774e869aeae0fb594eea16": {
+      "name": "ymu762 MegaMod",
+      "sheets": [
+        {
+          "name": "Main",
+          "id": 1
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "07a1ab10061545798d4f3460f641c0b5": "PCB3"
+  },
+  "panels": {},
+  "symbols": {
+    "be48faab69824c24a116c0a3fbe1438e": {
+      "source": "c2cf539e3ca88c178549559e8a64fa80|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "0.1u",
+      "version": "117951663844ee564ec5bc6416652c47",
+      "type": 2
+    },
+    "00344020ef2f4a75820225149e28efbd": {
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "GND",
+      "version": "1372807c0ff49089a68a8db13d94cb61",
+      "type": 18
+    },
+    "a3aaca11b75e4cb8b80de974fbf052a2": {
+      "source": "9f08eaf2493b597da6fd64997ea095bb|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "V33",
+      "version": "00392ccaec7a34bfc3b41081b837489d",
+      "type": 18
+    },
+    "de8d2d98b7f04c9892ff985ef6be3f66": {
+      "source": "e3a7e640c071521ef8ca1fd1f98c3b7b|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SPK-",
+      "version": "35b3f4480828bf4484fe18b968cbe7c2",
+      "type": 19
+    },
+    "c280729ea05d4c828fbf27e9cd29b7d9": {
+      "source": "8f5aad36e2795f4863bc39d22e6623a4|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SPK+",
+      "version": "35b3f4480828bf4484fe18b968cbe7c2",
+      "type": 19
+    },
+    "d4c37a6101cb4c26b002fada0d689702": {
+      "source": "c1a8a2d655840ce7aa19c3497c64f639|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "2.54mm 1*2P",
+      "version": "ae5c3892bd683b1c0384fe3defd9171e",
+      "type": 2
+    },
+    "9c1881ace76c4c199c858b4c562c8f74": {
+      "source": "9f08eaf2493b597da6fd64997ea095bb|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "V33",
+      "version": "35b3f4480828bf4484fe18b968cbe7c2",
+      "type": 19
+    },
+    "f9699249b36043dbbb2136c919e61622": {
+      "source": "43d9fa74af9182ef1d7c24fb6e096bcc|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "10u",
+      "version": "b40aac3289a0a5b1653d494af8735293",
+      "type": 2
+    },
+    "f0d03d9777b34a1a919c7bc3a0c39771": {
+      "source": "8cff5423006469332e8ae5e3a8c8559c|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "V5",
+      "version": "35b3f4480828bf4484fe18b968cbe7c2",
+      "type": 19
+    },
+    "98fb39adaa954d77bc34ec9e6c6208e9": {
+      "source": "01db972763294804a52bbb74cc96a867|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "VCC",
+      "version": "35b3f4480828bf4484fe18b968cbe7c2",
+      "type": 19
+    },
+    "52ff5ff02af14bd7a97ec5a85e4f842f": {
+      "source": "3cc07da8269b08186dd989bc26779ab5|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "AMS1117-3.3_C2992570",
+      "version": "9eff701870e8ba45f280122a828473df",
+      "type": 2
+    },
+    "a86523d5ad6c4218a3a121dbe04e6461": {
+      "source": "a4f9bcb2dafbb6ffcd523cfc0f5722de|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "1N4148W",
+      "version": "e2519d82fbc941a6214a916e4227e607",
+      "type": 2
+    },
+    "9934406989bf4aa9a78d78e96f749525": {
+      "source": "ed219438d1828fa614b25c079a9d66fc|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "A_A4",
+      "version": "10dababb3d533bd8004a493756877be0",
+      "type": 20
+    },
+    "424b8543fdbb48298fb892c88a0f1466": {
+      "source": "5f1f33754db86317cad86ac09e4a885d|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "MegaGRRL IC-FM",
+      "version": "f0e298b6d23decbdd190c0f3628f4b7c",
+      "type": 2
+    },
+    "e9444a8861d349e3af31d5d62c86070c": {
+      "source": "a80cbcf01e80c2d2e120dd3b75a893d7|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "SN76489AN",
+      "version": "d7af6655438213a9b572b1f974ba52c0",
+      "type": 2
+    },
+    "ccc20c0fbeb242898a3f84e378bace34": {
+      "source": "ad039decc20ecd7bdf5014346f2875ed|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "10k",
+      "version": "6c5c06d0a73a5d6b46efee5704daf99f",
+      "type": 2
+    },
+    "b6cba47a4c8c4f539f1fa4015279c12e": {
+      "source": "72b6dfe9269f44e5b8f093ee0e8754fb|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "LED-0805_R",
+      "version": "4e755532bec0bd82757c5d108f6d51ed",
+      "type": 2
+    },
+    "db06295d8cb6471eb75107b4b6e2efb3": {
+      "source": "01db972763294804a52bbb74cc96a867|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "VCC",
+      "version": "00392ccaec7a34bfc3b41081b837489d",
+      "type": 18
+    },
+    "1da1bad5250542d4ad565faef38b6c5a": {
+      "source": "aee1833a891f29956b6ca6b635b33b48|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "1k",
+      "version": "53d8c4198a3ce624e9f4501aa2403e82",
+      "type": 2
+    },
+    "ea734eca477d4f2ba7802c2648473211": {
+      "source": "ad039decc20ecd7bdf5014346f2875ed|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "10K",
+      "version": "0f5972c1bb8a7a326a01e3169dd9d30a",
+      "type": 2
+    },
+    "4bb745255665433d98e7a4ffcb9a251e": {
+      "source": "2c9f5c70ae2eb43a6c9476a9202fd228|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "27p",
+      "version": "23051070e074e3d7461fb4cf4f786574",
+      "type": 2
+    },
+    "4e1e8bf5f0d9458ba2f01fb982d8d870": {
+      "source": "48191582db40397111b7a68f6dd2eacc|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "4.7uf",
+      "version": "0b50627eb8b14e04e196ccc78d2a0541",
+      "type": 2
+    },
+    "eba056c6962e45888da8d67ee1c2a478": {
+      "source": "1fbe269479ae6adab7d2633f0de7e657|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "VSP",
+      "version": "00392ccaec7a34bfc3b41081b837489d",
+      "type": 18
+    },
+    "77a38c84699d4c3a849c8f6f6734a2a0": {
+      "source": "191bdf305c51f33b26ecb1dbe621aa90|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "56k",
+      "version": "6c5c06d0a73a5d6b46efee5704daf99f",
+      "type": 2
+    },
+    "d6a2c9ce92194851acd9f532193c9f5e": {
+      "source": "d99fa3d53367521899b04c676d04ee9f|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "30k",
+      "version": "6c5c06d0a73a5d6b46efee5704daf99f",
+      "type": 2
+    },
+    "ce8d72e6dacd45d48bbc5a2ee8e14b05": {
+      "source": "296cdb5f4c184ee6741407038cc90cb3|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "270p",
+      "version": "117951663844ee564ec5bc6416652c47",
+      "type": 2
+    },
+    "983dd8e521bd4334bf220d093b7393cf": {
+      "source": "ff3ca1e7144a356713efdc0ea2fc140e|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "22n",
+      "version": "b40aac3289a0a5b1653d494af8735293",
+      "type": 2
+    },
+    "6b95a91ed4a04730b46c8f802cc1992c": {
+      "source": "594170053719896a11eb08ee513813d5|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "1n",
+      "version": "117951663844ee564ec5bc6416652c47",
+      "type": 2
+    },
+    "1bcfbaaefb404f399fc576c1e272ad00": {
+      "source": "1cb49d99134070a240f9043a6a878108|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "3.3k",
+      "version": "6c5c06d0a73a5d6b46efee5704daf99f",
+      "type": 2
+    },
+    "3f6706b754bd4261b87dcc8405e45e21": {
+      "source": "be742258bc642b17c7a8772d53e15f06|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "12.288MHz",
+      "version": "7eadc07d178c23647c0e933f6fe65838",
+      "type": 2
+    },
+    "7622cc5ae42d44079624f6f9c2e00f0b": {
+      "source": "cbb5ff355bfc08c29238e9b9ffb594a8|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "YMU762",
+      "version": "9cb9f505e7261521a38b74993739b9f7",
+      "type": 2
+    },
+    "be6e97f8de104a0691b2fec64c0d84c4": {
+      "source": "d8e8822e4b0e8687a51409bd54039438|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "74ALVC164245DGGRG4",
+      "version": "7d2ca269a6a5bfafeca99dd0fe12fe53",
+      "type": 2
+    },
+    "5a35c33a8423453ea68d26af7bd815f5": {
+      "source": "e1e65cf7a0f4973bdac9935216595b1e|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "XL74HC165",
+      "version": "a3b6b0b63b460e40a0c09679335702f9",
+      "type": 2
+    },
+    "7ce7cda49533442588ca5c15e2964631": {
+      "source": "a0b2c45bfa17d6da3058ecd33cd7d1fb|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "",
+      "title": "74HC245C",
+      "version": "b3b3799cdb561fd110cf8b3673744d6b",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "1c6d0ad9ad994ead998ee006436b135f": {
+      "title": "C0805",
+      "source": "6c2039cbe639178be493b2e43cae1003|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "1b9ba9ab36175367a0b4a73e3fd9235b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "6b6f4e2f43a44fe994ff1f6948b0469f": {
+      "title": "HDR-TH_2P-P2.54-V-M",
+      "source": "1851842368dae761f36e8a8b8c276f4a|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "5aa9bcce9200babeaf55a899121a495c",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "d9451098cf1743cf991db2f2ebc2048d": {
+      "title": "SOT-223-3_L6.4-W3.5-P2.30-LS7.0-BR",
+      "source": "a4eec4701e9acaff27be709db5a3dca1|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "368deb48200979295f2f41f1435925a4",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "8eba4dcfd9c6487b94dfbd9cf7cb994a": {
+      "title": "C0805",
+      "source": "6c2039cbe639178be493b2e43cae1003|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "b7b050a06612423be2a15003b1375347",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "e63632b0767e4139b011b20de8cc0a69": {
+      "title": "DIP-24_L32.0-W13.8-P2.54-LS15.6-BL",
+      "source": "78c148f0e679b21a5bd7eea43a406a7d|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "6b3473afaabb11317af4ac5b89e2db7d",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "0e48898c18e947f68b4b8489674ad33c": {
+      "title": "DIP-16_L20.4-W5.8-P2.54-LS7.6-BL",
+      "source": "dfea8546556e7024059fa5330906ca74|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "8adac09c98650dab011082a0d3e85db1",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "700259512d974ca48c90bf0ca1ed1613": {
+      "title": "R0805",
+      "source": "3e9abb26ebc8dfbde2a8549a088662ac|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "95f0ce63557d41374864030f4d9f8a2b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "1be836856a0541cd9c8da7c3b2adc935": {
+      "title": "LED0805_RED",
+      "source": "b4ee26ffdc2e635dea839d482cd62e83|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "52a2ffa10f3dfed4156409c974fbb75f",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "af4e7fa8f659474cb77e40a82d00039e": {
+      "title": "RES-ARRAY-SMD_8P-L3.2-W1.6-P0.80-BL-1",
+      "source": "cd3674717f812acee60fcc1edd62c233|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "0ae674e4ee9118e3d59ec441b41845fa",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "1b272252c0f44e86866a5667668d76c3": {
+      "title": "OSC-SMD_4P-L7.0-W5.0-BL",
+      "source": "f36faf8ee26dcaff36cb14b15bb5e9d7|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "f26e3e8ae2fa92e8bcfcdfc04600b7c5",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "712a98553b3c49d79b80f4b46edc407d": {
+      "title": "C-PK32QP-2",
+      "source": "e3fac0bff0ba7a4015da4c74f94462ec|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "11f639e8f59f4f4e424d25d1f5a67605",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "d2b57830547d4ceca5c3d6084bdf0d6e": {
+      "title": "TSSOP-48_L12.5-W6.1-P0.50-LS8.1-BL",
+      "source": "894d8ceae8141f80d08060ca8dcce3b7|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "0a952fce2a753f337eb81b23e22a6387",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "e20447e6f1f44cfa99a3be4e119b456b": {
+      "title": "SOP-16_L9.9-W3.9-P1.27-LS6.1-BL",
+      "source": "e87be4774988d2b00449eb8b08a399f8|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "64b3d723dab4bf297fcaaacf370ae2b1",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    },
+    "b36671a3e6dc42d4bfc8c678c6824820": {
+      "title": "TSSOP-20_L6.5-W4.4-P0.65-LS6.4-BL",
+      "source": "8ce65e65b0588ba412e18d48d9771998|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "15ed27091bbd3028adf90bc9b18eb15b",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": ""
+    }
+  },
+  "devices": {
+    "7b74ad8aae8b4ee19a5bab2c4fd7e98c": {
+      "title": "0.1u",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "be48faab69824c24a116c0a3fbe1438e",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "0.1u"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "c2cf539e3ca88c178549559e8a64fa80|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "66b98cd8ac06a6e089b7ea270bad506d",
+      "custom_tags": ""
+    },
+    "54dc6d53821e41399e6af1241762c512": {
+      "title": "GND",
+      "attributes": {
+        "Symbol": "00344020ef2f4a75820225149e28efbd",
+        "Footprint": "",
+        "Name": "GND"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "eec5ca16eb7a29985d7dcb84eac54c07|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "318c292a3a5d53c79435272745e8691d",
+      "custom_tags": ""
+    },
+    "39585429240242a2bb886732f6a933d8": {
+      "title": "V33",
+      "attributes": {
+        "Symbol": "a3aaca11b75e4cb8b80de974fbf052a2",
+        "Footprint": "",
+        "Name": "V33"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "9f08eaf2493b597da6fd64997ea095bb|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "b66df6e02cc010a481e47932b8bfbb81",
+      "custom_tags": ""
+    },
+    "114f72492785479e96adcfe47231f91a": {
+      "title": "SPK-",
+      "attributes": {
+        "Symbol": "de8d2d98b7f04c9892ff985ef6be3f66",
+        "Footprint": "",
+        "Name": "SPK-"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "e3a7e640c071521ef8ca1fd1f98c3b7b|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "3a448643776486a41b134a607fd0c95c",
+      "custom_tags": ""
+    },
+    "a0d61e7a4ca94ffda917064467074265": {
+      "title": "SPK+",
+      "attributes": {
+        "Symbol": "c280729ea05d4c828fbf27e9cd29b7d9",
+        "Footprint": "",
+        "Name": "SPK+"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "8f5aad36e2795f4863bc39d22e6623a4|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "38b67c0df48dc92c92fd9b5240f68ad1",
+      "custom_tags": ""
+    },
+    "71686a7e198c415ba42558aa79eddee4": {
+      "title": "2.54mm 1*2P",
+      "attributes": {
+        "Designator": "P?",
+        "Symbol": "d4c37a6101cb4c26b002fada0d689702",
+        "Supplier": "LCSC",
+        "Manufacturer": "ReliaPro",
+        "Manufacturer Part": "2.54mm 1*2P",
+        "Supplier Part": "C36717",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "2.54mm 1*2P"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "c1a8a2d655840ce7aa19c3497c64f639|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "80b1cb0c2109793d740af0d314ab017c",
+      "custom_tags": ""
+    },
+    "b1cda5a0abe54f6d9da4796e5dc1235a": {
+      "title": "V33",
+      "attributes": {
+        "Symbol": "9c1881ace76c4c199c858b4c562c8f74",
+        "Footprint": "",
+        "Name": "V33"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "9f08eaf2493b597da6fd64997ea095bb|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "fdf4eda8998899ea760ea48e145421af",
+      "custom_tags": ""
+    },
+    "2394135490e74d1baff36a26a8ee877e": {
+      "title": "10u",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "f9699249b36043dbbb2136c919e61622",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "10u"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "43d9fa74af9182ef1d7c24fb6e096bcc|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "dff6c5caf5d68e82afe8b70646359ba0",
+      "custom_tags": ""
+    },
+    "5c2c4b7e45b74f11a5e3628fb93b897d": {
+      "title": "V5",
+      "attributes": {
+        "Symbol": "f0d03d9777b34a1a919c7bc3a0c39771",
+        "Footprint": "",
+        "Name": "V5"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "8cff5423006469332e8ae5e3a8c8559c|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "2abfc25e749266f49425b584f3d9d925",
+      "custom_tags": ""
+    },
+    "90c871dac1ec46da9a4cb0617450dfdb": {
+      "title": "VCC",
+      "attributes": {
+        "Symbol": "98fb39adaa954d77bc34ec9e6c6208e9",
+        "Footprint": "",
+        "Name": "VCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "01db972763294804a52bbb74cc96a867|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "fe4d982afdb5840c6e50e6c6c1c69482",
+      "custom_tags": ""
+    },
+    "4575abb0f3cc480aae09b2bff5cc6f8e": {
+      "title": "AMS1117-3.3",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "52ff5ff02af14bd7a97ec5a85e4f842f",
+        "Supplier": "LCSC",
+        "Supplier Part": "C2992570",
+        "Manufacturer": "国芯佳品",
+        "Manufacturer Part": "AMS1117-3.3",
+        "link": "https://atta.szlcsc.comnull",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "AMS1117-3.3"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "652991c0519a3fc36132bb07538e67ba|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "b4462b40dd68b42ff518016aa67fd801",
+      "custom_tags": ""
+    },
+    "c14610828174446c9cc2a97c65976d77": {
+      "title": "1N4148W",
+      "attributes": {
+        "Designator": "D?",
+        "Symbol": "a86523d5ad6c4218a3a121dbe04e6461",
+        "Supplier": "LCSC",
+        "Supplier Part": "C1884539",
+        "Manufacturer": "YFW佑风微",
+        "Manufacturer Part": "1N4148W",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "1N4148W"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "a4f9bcb2dafbb6ffcd523cfc0f5722de|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "9f9075edce00638e0f2bef2195972fe7",
+      "custom_tags": ""
+    },
+    "09c8e1a3a9da4f839e8cede6f9088b87": {
+      "title": "A_A4",
+      "attributes": {
+        "Symbol": "9934406989bf4aa9a78d78e96f749525",
+        "@Project Name": "Sheet_1",
+        "REV": "1.0",
+        "Date": "2021-11-16",
+        "Sheet": "1/1",
+        "Company": "Your Company",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "A_A4"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "ed219438d1828fa614b25c079a9d66fc|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "0c320bc17fb992b83861e23dda4c9463",
+      "custom_tags": ""
+    },
+    "0218683197d349a6a261d0417fca3b8a": {
+      "title": "YM2612",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "424b8543fdbb48298fb892c88a0f1466",
+        "Supplier": "",
+        "Supplier Part": "C707077",
+        "Manufacturer": "YAMAHA",
+        "Manufacturer Part": "YM2612",
+        "JLCPCB SMD": "Yes",
+        "JLCPCB Part Class": "Extend",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "YM2612"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "4d922cb00384a5ab02a095b062d2d432|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "a68dd74acd3d318421927fdaa81ed4d4",
+      "custom_tags": ""
+    },
+    "e62845bcd944439c94ac4dbb67eab108": {
+      "title": "SN76489AN",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "e9444a8861d349e3af31d5d62c86070c",
+        "Manufacturer": "Texas Instruments",
+        "Manufacturer Part": "SN76489AN",
+        "Supplier Part": "",
+        "Supplier": "",
+        "link": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "SN76489AN"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "a80cbcf01e80c2d2e120dd3b75a893d7|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "c0b716d6f43e07e264bff2964ff5fa31",
+      "custom_tags": ""
+    },
+    "14f76b3e58404f699d53c24283007bc8": {
+      "title": "10k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "ccc20c0fbeb242898a3f84e378bace34",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "10k"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "ad039decc20ecd7bdf5014346f2875ed|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "7b66999df2091f73e2277021166e0439",
+      "custom_tags": ""
+    },
+    "79ef4358b2584914a6741a6446eeb2db": {
+      "title": "17-21SURC/S530-A3/TR8",
+      "attributes": {
+        "Designator": "LED?",
+        "Symbol": "b6cba47a4c8c4f539f1fa4015279c12e",
+        "Manufacturer": "EVERLIGHT(台湾亿光)",
+        "Manufacturer Part": "17-21SURC/S530-A3/TR8",
+        "Supplier Part": "C72037",
+        "Supplier": "",
+        "link": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "17-21SURC/S530-A3/TR8"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "07028b8be11cda254b704fb64ecb6208|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "36ce46290adefc7119d1b831f45be5cd",
+      "custom_tags": ""
+    },
+    "682b636c25774326b632acc31a76e727": {
+      "title": "VCC",
+      "attributes": {
+        "Symbol": "db06295d8cb6471eb75107b4b6e2efb3",
+        "Footprint": "",
+        "Name": "VCC"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "01db972763294804a52bbb74cc96a867|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "0a5ee7ded34bc1e76a5cbc5ec962e9c0",
+      "custom_tags": ""
+    },
+    "6b81e21d23f94d6093b6968786c0ab74": {
+      "title": "1k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "1da1bad5250542d4ad565faef38b6c5a",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "1k"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "aee1833a891f29956b6ca6b635b33b48|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "4b2a46867faf3b15e0a3dc46f5c2bbfb",
+      "custom_tags": ""
+    },
+    "444c5d9bf1d147e59d84ca88c4108692": {
+      "title": "YC164-JR-0751RL",
+      "attributes": {
+        "Designator": "RN?",
+        "Symbol": "ea734eca477d4f2ba7802c2648473211",
+        "Supplier": "LCSC",
+        "Supplier Part": "C13474",
+        "Manufacturer": "YAGEO",
+        "Manufacturer Part": "YC164-JR-0751RL",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "YC164-JR-0751RL"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "7581ce719a9967aeb844e9f11ac03f2a|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "33c3bcc20f7d44d840fd8ba5bb627f33",
+      "custom_tags": ""
+    },
+    "f5a37352b74e48978dab283494963f48": {
+      "title": "27p",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "4bb745255665433d98e7a4ffcb9a251e",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "27p"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "2c9f5c70ae2eb43a6c9476a9202fd228|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "18daf623688e436223d7a5d3908ef3ce",
+      "custom_tags": ""
+    },
+    "8f243847591b4da9a324e7611351843b": {
+      "title": "4.7uf",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "4e1e8bf5f0d9458ba2f01fb982d8d870",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "4.7uf"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "48191582db40397111b7a68f6dd2eacc|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "f8ba7d6a4e9112ffcf6b9474ced99287",
+      "custom_tags": ""
+    },
+    "2be77478b67a478fa85c976f8628f866": {
+      "title": "VSP",
+      "attributes": {
+        "Symbol": "eba056c6962e45888da8d67ee1c2a478",
+        "Footprint": "",
+        "Name": "VSP"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "1fbe269479ae6adab7d2633f0de7e657|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "76db41861b6917b8821c0f6280380081",
+      "custom_tags": ""
+    },
+    "0fbd6f6283534c6b97f6153e6aadcc3c": {
+      "title": "56k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "77a38c84699d4c3a849c8f6f6734a2a0",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "56k"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "191bdf305c51f33b26ecb1dbe621aa90|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "4d4f477488136886b58ac50eef989fb5",
+      "custom_tags": ""
+    },
+    "d8f4867107c84e1a9c8919050ff5c83f": {
+      "title": "30k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "d6a2c9ce92194851acd9f532193c9f5e",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "30k"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "d99fa3d53367521899b04c676d04ee9f|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "a402cdfbd79455af643475ad84e9322e",
+      "custom_tags": ""
+    },
+    "b4805b098c69488e993bb2d8c02230a9": {
+      "title": "270p",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "ce8d72e6dacd45d48bbc5a2ee8e14b05",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "270p"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "296cdb5f4c184ee6741407038cc90cb3|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "3e730911c201dfb4b3e5a68080f40371",
+      "custom_tags": ""
+    },
+    "fd8253afb887482991dab8eff9f20060": {
+      "title": "22n",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "983dd8e521bd4334bf220d093b7393cf",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "22n"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "ff3ca1e7144a356713efdc0ea2fc140e|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "00410ebba7d40c55376fafbbf84a2550",
+      "custom_tags": ""
+    },
+    "e8a4cdaed8f1430999e52d7b64e3e27e": {
+      "title": "1n",
+      "attributes": {
+        "Designator": "C?",
+        "Symbol": "6b95a91ed4a04730b46c8f802cc1992c",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "1n"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "594170053719896a11eb08ee513813d5|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "51fdbc50a5d7eeccb417203d2dac4c87",
+      "custom_tags": ""
+    },
+    "9794b0010fd54663a9940e2c998f8545": {
+      "title": "3.3k",
+      "attributes": {
+        "Designator": "R?",
+        "Symbol": "1bcfbaaefb404f399fc576c1e272ad00",
+        "Supplier Part": "",
+        "Supplier": "",
+        "Manufacturer Part": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "3.3k"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "1cb49d99134070a240f9043a6a878108|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "d3f27351145b91ca337652f3a6b013c7",
+      "custom_tags": ""
+    },
+    "b96b769774b84002b5aa6760e98d2142": {
+      "title": "OT705012.288MJBA4SL",
+      "attributes": {
+        "Designator": "X?",
+        "Symbol": "3f6706b754bd4261b87dcc8405e45e21",
+        "Supplier": "LCSC",
+        "Supplier Part": "C669092",
+        "Manufacturer": "Yangxing Tech",
+        "Manufacturer Part": "OT705012.288MJBA4SL",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "OT705012.288MJBA4SL"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "96628fcda3b5591de52a0e5e6bdc1ea8|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "e2a0bdabb3f05d885c16030725be581c",
+      "custom_tags": ""
+    },
+    "bb4fc9202e3c4f2f8de716d4bfc66778": {
+      "title": "YMU762",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "7622cc5ae42d44079624f6f9c2e00f0b",
+        "Manufacturer": "",
+        "Manufacturer Part": "",
+        "Supplier Part": "",
+        "Supplier": "",
+        "link": "",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "YMU762"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "cbb5ff355bfc08c29238e9b9ffb594a8|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "a2e1919ed72df6011d492c080367cec8",
+      "custom_tags": ""
+    },
+    "c7f5125ce92d42419ed6afffec298187": {
+      "title": "74ALVC164245DGGRG4",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "be6e97f8de104a0691b2fec64c0d84c4",
+        "Supplier": "LCSC",
+        "Supplier Part": "C2677427",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "74ALVC164245DGGRG4",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "74ALVC164245DGGRG4"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "d8e8822e4b0e8687a51409bd54039438|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "fb01d6b4015e994fca870abadbc01599",
+      "custom_tags": ""
+    },
+    "37771e0bdc744d388a224d0ef8ab631b": {
+      "title": "XL74HC165",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "5a35c33a8423453ea68d26af7bd815f5",
+        "Supplier": "LCSC",
+        "Supplier Part": "C609780",
+        "Manufacturer": "XINLUDA",
+        "Manufacturer Part": "XL74HC165",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "XL74HC165"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "e1e65cf7a0f4973bdac9935216595b1e|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "9586c443a2b361b34b0323f42d364f09",
+      "custom_tags": ""
+    },
+    "d2c68fd36f4c41b9a8e09a4cc819163f": {
+      "title": "74HC245C",
+      "attributes": {
+        "Designator": "U?",
+        "Symbol": "7ce7cda49533442588ca5c15e2964631",
+        "Supplier": "LCSC",
+        "Manufacturer": "FM",
+        "Manufacturer Part": "74HC245C",
+        "Supplier Part": "C126198",
+        "JLCPCB Part Class": "Extended Part",
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Footprint": "",
+        "Name": "74HC245C"
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": "",
+      "source": "a0b2c45bfa17d6da3058ecd33cd7d1fb|6e58a08356fcd2aeaf98a24737feb66f10b5f3b395173a97791f74cea79a5af7",
+      "version": "0acce9731ac11a2f8a83bfc240c9d8db",
+      "custom_tags": ""
+    }
+  },
+  "boards": {
+    "方案1": {
+      "schematic": "3134841d6b774e869aeae0fb594eea16",
+      "pcb": "07a1ab10061545798d4f3460f641c0b5"
+    }
+  },
+  "config": {
+    "title": "方案1",
+    "cbbProject": false,
+    "defaultSheet": "",
+    "editorVersion": "1.8.39.fb3963"
+  }
+}
